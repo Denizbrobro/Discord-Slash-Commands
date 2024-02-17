@@ -4,23 +4,38 @@ Created By: Denizbrobro
 
 ## Installation
 
-Use the **[pip](https://pip.pypa.io/en/stable/)** package manager and execute the following commands:
+To set up the Discord.py interaction features, use the **[pip](https://pip.pypa.io/en/stable/)** package manager and execute the following command:
 
 ```bash
 pip install discord
 pip install discord-py-interactions
 ```
 
+## Discord.py Interaction Guide
 
-![importlist](https://github.com/Denizbrobro/Discord-Slash-Commands/assets/140730727/d0df0e9a-60d0-4aae-93c1-3633fcc87657)
+The Discord.py library is a powerful tool for creating Discord bots in the Python language. This guide provides a fundamental understanding for developers looking to incorporate interactive commands (slash commands) and button interactions into their Discord servers.
 
+### Types of Interactions
 
-## Contributing
+There are two main types of interactions used in Discord.py:
 
+1. **Slash Commands:** Allows users to execute commands starting with a forward slash (/). For example, "/command".
 
+2. **Button Interactions:** Enables users to click on buttons, providing your bot with more control and interaction options.
 
-Please make sure to update tests as appropriate.
+### How to Use
+
+1. Add your bot to the Discord server.
+2. Secure your bot's token.
+3. Integrate the interaction module into your bot's main file:
+
+```python
+import discord
+from discord.ext import commands
+from discord.interactions import Interaction
+from config import TOKEN
+```
 
 ## License
 
-**[MIT](https://choosealicense.com/licenses/mit/)**
+This project is licensed under the **[MIT License](https://choosealicense.com/licenses/mit/)**.
