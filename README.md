@@ -33,7 +33,6 @@ There are two main types of interactions used in Discord.py:
 import discord
 from discord.ext import commands
 from discord.interactions import Interaction
-from config import TOKEN
 ```
 
 ## License
