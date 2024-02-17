@@ -11,8 +11,8 @@ pip install discord
 pip install discord-py-interactions
 ```
 
+![importlist](https://github.com/Denizbrobro/Discord-Slash-Commands/assets/140730727/d0df0e9a-60d0-4aae-93c1-3633fcc87657)
 
-![carbon](https://github.com/Denizbrobro/Discord-Slash-Commands/assets/140730727/394bbbd2-061b-40e6-93e1-62e238c9f92d)
 
 
 ## Contributing
