@@ -1,7 +1,6 @@
-  import discord
+import discord
 from discord.ext import commands
 from discord.interactions import Interaction
-from config import TOKEN
 
 #intents
 bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
@@ -19,10 +18,6 @@ async def ping(interaction: discord.Interaction):
 async def ping(interaction: discord.Interaction):
     interaction.response.send_message("Pong2!")
 
-
-
-
-
 #events
 @bot.event
 async def on_ready():
@@ -34,4 +29,4 @@ async def on_ready():
     except Exception as e:
         print("There is an issue with the bot. Please check the bot. Urgent.", e)
 
-bot.run(TOKEN)
+bot.run("Your bot token here")
